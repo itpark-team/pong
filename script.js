@@ -52,8 +52,8 @@ function createBall(gameCanvas) {
     let width = height;
     let x = Math.floor(gameCanvas.width / 2 - width / 2);
     let y = Math.floor(gameCanvas.height / 2 - height / 2);
-    let dx = Math.floor(width * 0.3);
-    let dy = Math.floor(height * 0.3);
+    let dx = Math.floor(width * 0.2);
+    let dy = Math.floor(height * 0.2);
 
     return {
         x: x,
